@@ -12,11 +12,12 @@ Following is the code logic for the plots
 3. The list of files in the zip is first listed. Output can be seen in the console
 4. The rquired file:"household_power_consumption.txt" is extracted and stored in folder "data"
 5. All the data from the " household_power_consumption.txt" is loaded in R studio as csv and stored in variable "full.data"
-6. Date is converted to the desired format and stored in the date column
-7. A subset is created with date between 2007-2-1 and  2007-2-2 and stored in variable "required.data"
-8. Date and time is pasted into single variable "datetime" and this variable is stored in the "required.data" as "Datetime" Column
+6. Temp file is closed.
+7. Date is converted to the desired format and stored in the date column
+8. A subset is created with date between 2007-2-1 and  2007-2-2 and stored in variable "required.data"
+9. Date and time is pasted into single variable "datetime" and this variable is stored in the "required.data" as "Datetime" Column
 
-9. As per the plot requirement in each plot, logic and code is formed. refer individual code for details
+10. As per the plot requirement in each plot, logic and code is formed. refer individual code for details
 
-10. Graphic is copied in PNG format
-11. Graphic device is closed.
+11. Graphic is copied in PNG format
+12. Graphic device is closed.
